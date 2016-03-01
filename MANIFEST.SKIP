@@ -1,0 +1,5 @@
+\.o
+.carmel
+local
+
+#!include_default

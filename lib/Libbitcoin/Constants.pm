@@ -1,0 +1,25 @@
+package Libbitcoin::Constants;
+use strict;
+use warnings;
+use parent 'Exporter';
+use Libbitcoin;
+
+our @EXPORT_OK = qw(
+    BC_USER_AGENT
+    PROTOCOL_VERSION
+    PEER_MINIMUM_VERSION
+    REWARD_INTERVAL
+    COINBASE_MATURITY
+    INITIAL_BLOCK_REWARD
+    MAX_WORK_BITS
+    MAX_INPUT_SEQUENCE
+    LOCKTIME_THRESHOLD
+    NODE_NETWORK
+    NODE_UTXO
+    BLOOM_FILTERS
+    NO_TIMESTAMP
+    UNSPECIFIED_IP_PORT
+    LIBBITCOIN_VERSION
+);
+
+1;
